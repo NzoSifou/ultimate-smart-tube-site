@@ -18,10 +18,18 @@
 <body>
 <main>
   <h1>Règles de confidentialité</h1>
-  <p class="date">Ultimate Smart Tube — en vigueur le 16 novembre 2026, mise à jour le 16 novembre 2026</p>
+  <p class="date">Ultimate Smart Tube — en vigueur le 16 novembre 2026, mise à jour le 17 novembre 2026</p>
 
   <h2>Données consultées</h2>
-  <p>Lorsque vous connectez votre compte Google, l'application demande l'<strong>accès YouTube</strong> (<code>https://www.googleapis.com/auth/youtube</code>). Cette autorisation est nécessaire pour afficher votre page d'accueil recommandée, mais l'application l'utilise <strong>uniquement en lecture</strong> : nom de votre chaîne, liste de vos abonnements, accueil recommandé, afin de les afficher sur votre téléviseur. Elle ne publie rien, ne modifie rien et ne supprime rien sur votre compte.</p>
+  <p>Lorsque vous connectez votre compte Google, l'application demande l'<strong>accès YouTube</strong> (<code>https://www.googleapis.com/auth/youtube</code>). Elle s'en sert pour lire et afficher sur votre téléviseur : le nom de votre chaîne, vos abonnements, votre page d'accueil recommandée, les informations des vidéos (description, statistiques, votre « j'aime » éventuel) et les pages des chaînes. Les commentaires, publics, sont lus avec une clé d'API sans lien avec votre compte.</p>
+
+  <h2>Actions sur votre compte</h2>
+  <p>L'application ne modifie votre compte <strong>que lorsque vous appuyez vous-même sur le bouton correspondant</strong> :</p>
+  <ul>
+    <li>« J'aime », « Je n'aime pas » ou retrait de cette appréciation sur une vidéo ;</li>
+    <li>abonnement à une chaîne ou désabonnement (le désabonnement demande une confirmation).</li>
+  </ul>
+  <p>Elle ne publie aucun commentaire ni aucune vidéo, ne supprime rien et n'effectue aucune action automatique ou en arrière-plan sur votre compte.</p>
 
   <h2>Stockage</h2>
   <p>Le jeton d'accès et la liste des abonnements sont conservés uniquement sur le serveur personnel de l'utilisateur, installé sur son propre réseau local. Aucune donnée n'est envoyée à un serveur tiers appartenant au développeur.</p>
@@ -36,7 +44,7 @@
   <p>Vous pouvez retirer l'accès à tout moment depuis <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. La déconnexion depuis l'application supprime le compte du serveur personnel.</p>
 
   <h2 lang="en">Summary (English)</h2>
-  <p lang="en">The app requests YouTube access (required for the recommended home feed) but only uses it to read: your channel name, subscriptions and recommended home feed, shown on your TV. It never posts, modifies or deletes anything. Tokens and data stay on the user's own home server. Nothing is shared with third parties. Access can be revoked at myaccount.google.com/permissions.</p>
+  <p lang="en">The app requests YouTube access to read your channel name, subscriptions, recommended home feed, video details and channel pages, shown on your TV (public comments are read with an API key not tied to your account). It only changes your account when you press the matching button yourself: like, dislike or remove a rating, and subscribe or unsubscribe (unsubscribing asks for confirmation). It never posts comments or videos, never deletes anything and takes no automatic action. Tokens and data stay on the user's own home server. Nothing is shared with third parties. Access can be revoked at myaccount.google.com/permissions.</p>
 </main>
 </body>
 </html>
